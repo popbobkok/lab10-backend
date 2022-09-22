@@ -11,5 +11,5 @@ import java.util.List;
 public interface LabMapper {
     LabMapper INSTANCE = Mappers.getMapper(LabMapper.class);
     EventDTO getEventDto(Event event);
-    List<EventDTO> getEventDTO(List<Event> events);
+    List<EventDTO> getEventDto(List<Event> events);
 }
