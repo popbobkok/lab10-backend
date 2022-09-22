@@ -4,12 +4,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 import se331.rest.dao.OrganizerDao;
 import se331.rest.entity.Organizer;
 
 import java.util.List;
 
-public class OrganizerServicelmpl implements OrganizerService{
+@Service
+public class OrganizerServiceImpl implements OrganizerService{
     @Autowired
     OrganizerDao organizerDao;
     @Override

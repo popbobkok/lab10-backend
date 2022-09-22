@@ -8,7 +8,7 @@ import se331.rest.entity.Organizer;
 import se331.rest.repository.OrganizerRepository;
 
 @Repository
-public class OrganizerDaolmpl implements OrganizerDao{
+public class OrganizerDaoImpl implements OrganizerDao{
     @Autowired
     OrganizerRepository organizerRepository;
     @Override
